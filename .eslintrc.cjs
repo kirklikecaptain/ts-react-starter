@@ -9,6 +9,7 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:import/recommended",
+    "plugin:import/typescript",
     "plugin:@typescript-eslint/stylistic-type-checked",
     "plugin:prettier/recommended"
   ],

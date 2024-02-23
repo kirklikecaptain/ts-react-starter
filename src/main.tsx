@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
+import Router from "./router/router";
 
 const root = document.getElementById("root")!;
 
 const application = (
   <React.StrictMode>
-    <App />
+    <Router />
   </React.StrictMode>
 );
 
