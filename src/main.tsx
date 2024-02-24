@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import ThemeProvider from "~/libs/chakra-ui/ThemeProvider";
 import QueryProvider from "~/libs/react-query/QueryProvider";
-import Router from "~/router/router";
+import Router from "./main.router";
 
 const root = document.getElementById("root")!;
 
-const application = (
+ReactDOM.createRoot(root).render(
   <React.StrictMode>
     <ThemeProvider>
       <QueryProvider>
@@ -15,5 +15,3 @@ const application = (
     </ThemeProvider>
   </React.StrictMode>
 );
-
-ReactDOM.createRoot(root).render(application);

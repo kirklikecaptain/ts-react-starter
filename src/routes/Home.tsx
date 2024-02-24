@@ -2,7 +2,7 @@ import { Box, Heading, ListItem, Text, UnorderedList } from "@chakra-ui/react";
 import { useExampleData } from "~/api/queries/useExampleData";
 
 export default function Home() {
-  const { data, error, isPending } = useExampleData()
+  const { data, error, isPending } = useExampleData();
 
   if (isPending) return "Loading...";
 
